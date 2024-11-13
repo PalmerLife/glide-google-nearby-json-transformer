@@ -1,0 +1,23 @@
+{
+  "kind": "column",
+  "name": "Place Info Extractor",
+  "description": "Extracts place information from JSON data based on address, including latitude, longitude, and up to 3 types as individual fields in a single string output.",
+  "author": "Your Name <your.email@example.com>",
+  "params": [
+    {
+      "name": "json_string",
+      "displayName": "JSON String",
+      "type": "string",
+      "description": "The JSON formatted string containing place data."
+    },
+    {
+      "name": "address",
+      "displayName": "Address",
+      "type": "string",
+      "description": "The address to match within the JSON data."
+    }
+  ],
+  "result": {
+    "type": "string"
+  }
+}
